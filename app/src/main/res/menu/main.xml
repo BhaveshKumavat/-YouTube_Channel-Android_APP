@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bhavesh.edutechload.MainActivity">
+
+
+    <item
+        android:id="@+id/action"
+        android:icon="@drawable/upload"
+        android:orderInCategory="100"
+        android:title="OPEN YOUTUBE APP"
+        app:showAsAction="ifRoom"></item>
+
+
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="101"
+        android:title="ABOUT">
+
+    </item>
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        android:orderInCategory="102">
+    </item>
+
+
+
+    <item
+        android:id="@+id/blog"
+        android:orderInCategory="103"
+        android:title="BLOG">
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="104"
+        android:title="SHARE">
+    </item>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="FEEDBACK"
+        android:orderInCategory="105">
+    </item>
+
+
+
+
+</menu>
